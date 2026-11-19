@@ -207,7 +207,7 @@ export function HomePage() {
       <section className="sec bg-paper tone-light" id="how-we-work">
         <div className="wrap">
           <SectionHeading title="Understand the problem. Build the right system. Improve continuously." lead={methodNote} />
-          <Reveal className="method-band"><img src="/brand/method.webp" alt="" width="1800" height="591" loading="lazy" decoding="async" /></Reveal>
+          <Reveal className="method-band"><img src="/brand/method.webp" alt="" width="1672" height="550" loading="lazy" decoding="async" /></Reveal>
           <StageList />
           <div className="sec-foot"><Button href={cta.approach[1]}>{cta.approach[0]}</Button></div>
         </div>
