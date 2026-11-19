@@ -242,7 +242,7 @@ export function HomePage() {
               <p className="lead">Articles on business systems, operational efficiency, data and automation.</p>
               <div className="btn-row"><Button href="/insights" variant="ghost">All insights</Button></div>
             </div>
-            <Reveal className="ins-photo"><img src="/brand/insights.webp" alt="A founder studying a report at her desk" width="1400" height="788" loading="lazy" decoding="async" /></Reveal>
+            <Reveal className="ins-photo"><img src="/brand/insights.webp" alt="Two colleagues going through a business report on a laptop and tablet" width="1400" height="788" loading="lazy" decoding="async" /></Reveal>
           </div>
           <div className="grid3">{latest.map((a) => <ArticleCard key={a.slug} article={a} />)}</div>
         </div>
