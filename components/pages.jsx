@@ -164,7 +164,7 @@ export function HomePage() {
           <SectionHeading title={solutionIntro.title} lead={solutionIntro.lead} />
           <ul className="caps">
             {solutions.map((s, i) => (
-              <li key={s.slug}><Reveal delay={i * 80} className={cx("cap", `cap-${s.slug}`)}>
+              <li key={s.slug}><Reveal delay={i * 80} className={cx("cap", `cap-${s.slug}`)}><span className="cap-img" aria-hidden="true" />
                 <h3 className="cap-name">{s.homeName}</h3>
                 <p className="body">{s.homeText}</p>
                 <Link href={"/what-we-solve#" + s.slug} className="tlink stretch">How this works</Link>
@@ -207,7 +207,7 @@ export function HomePage() {
       <section className="sec bg-paper tone-light" id="how-we-work">
         <div className="wrap">
           <SectionHeading title="Understand the problem. Build the right system. Improve continuously." lead={methodNote} />
-          <Reveal className="method-band"><img src="/brand/method.webp" alt="" width="1800" height="591" loading="lazy" decoding="async" /></Reveal>
+          <Reveal className="method-band" aria-hidden="true"><span /><span /><span /><span /></Reveal>
           <StageList />
           <div className="sec-foot"><Button href={cta.approach[1]}>{cta.approach[0]}</Button></div>
         </div>
