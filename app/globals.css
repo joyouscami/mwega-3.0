@@ -225,3 +225,5 @@ font-family:var(--font-sans),ui-sans-serif,system-ui,-apple-system,"Segoe UI",Ro
 .founder-photo img{box-shadow:8px 8px 0 var(--orange)}.beyond-photo img{box-shadow:8px 8px 0 var(--orange)}.ins-photo img{box-shadow:-8px 8px 0 var(--turq)}
 @media(min-width:768px){.founder-photo img{aspect-ratio:21/9;height:auto;box-shadow:20px 20px 0 var(--orange)}.sol-img{aspect-ratio:16/8}}
 @media(min-width:900px){.beyond-photo img{aspect-ratio:4/5;box-shadow:16px 16px 0 var(--orange)}.ins-photo img{aspect-ratio:4/3;box-shadow:-14px 14px 0 var(--turq)}}
+.diag-photo{aspect-ratio:auto;height:auto;object-fit:initial;box-shadow:8px 8px 0 #101820}
+@media(min-width:900px){.diag-photo{aspect-ratio:16/9;object-fit:cover;box-shadow:10px 10px 0 #101820}}
