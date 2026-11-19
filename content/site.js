@@ -204,7 +204,7 @@ export const articles = [
   {
     slug: "founder-dependency-signs", category: "Founder Dependency", title: "Six signs your business depends too much on you",
     summary: "If everything stalls when you step away, the problem is usually the system, not your team. Here is how to spot it.",
-    image: "", alt: "",
+    image: "/insights/founder-dependency.webp", alt: "A founder with his hand on his forehead, looking stressed at a laptop",
     body: [
       ["p", "Founder dependency rarely looks like a crisis. It looks like a busy, capable owner who is needed everywhere. It becomes a limit on growth when the business can only move as fast as you can answer."],
       ["h", "1. People wait for you to decide"],
