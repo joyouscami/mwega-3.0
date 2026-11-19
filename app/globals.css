@@ -214,23 +214,8 @@ font-family:var(--font-sans),ui-sans-serif,system-ui,-apple-system,"Segoe UI",Ro
 .method-band{margin:36px 0 40px}.method-band img{width:100%;height:auto;display:block}
 .sol-img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:70% 40%;display:block;margin:20px 0 8px}
 
-@media(min-width:900px){.bg-teal .cap-business-systems,.bg-teal .cap-business-intelligence,.bg-teal .cap-digital-systems,.bg-teal .cap-ai-automation{background:linear-gradient(180deg,rgba(16,24,32,.3) 0%,#101820 80%) ,var(--cap-img) 50% 40%/cover #101820}}
+.bg-teal .cap-business-systems,.bg-teal .cap-business-intelligence,.bg-teal .cap-digital-systems,.bg-teal .cap-ai-automation{background:linear-gradient(180deg,rgba(16,24,32,.3) 0%,#101820 80%) ,var(--cap-img) 50% 40%/cover #101820}
 .bg-teal .cap-business-systems{--cap-img:url(/brand/bsys.webp)}.bg-teal .cap-business-intelligence{--cap-img:url(/brand/bi.webp)}.bg-teal .cap-digital-systems{--cap-img:url(/brand/dsys.webp)}.bg-teal .cap-ai-automation{--cap-img:url(/brand/ai.webp)}
 .ins-head{display:grid;gap:32px;align-items:center;margin-bottom:48px}@media(min-width:900px){.ins-head{grid-template-columns:1fr 1.1fr;gap:64px}}
 .ins-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 40%;display:block;box-shadow:-14px 14px 0 var(--turq)}
 .footer{background:linear-gradient(180deg,rgba(16,24,32,.88) 0%,rgba(16,24,32,.8) 100%),url(/brand/footer.webp) center/cover #101820}
-
-/* ===== mobile image fit ===== */
-.bg-teal .cap{position:relative;overflow:hidden}
-.cap-img{display:block;aspect-ratio:16/9;margin:-28px -28px 20px;background:var(--cap-img) center/cover no-repeat #101820}
-.bg-teal .cap::before{position:absolute;top:0;left:0;z-index:2;margin:0;padding:8px 12px;font-size:1.3rem;background:#101820}
-@media(min-width:900px){.cap-img{display:none}.bg-teal .cap::before{position:static;padding:0;font-size:2.4rem;background:none;margin-bottom:14px}}
-.beyond-photo img{aspect-ratio:4/3;object-position:50% 30%}@media(min-width:900px){.beyond-photo img{aspect-ratio:4/5;object-position:58% 40%}}
-.founder-photo img{aspect-ratio:16/10;object-position:62% 30%}@media(min-width:768px){.founder-photo img{aspect-ratio:21/9}}
-.ins-photo img{aspect-ratio:16/10}@media(min-width:900px){.ins-photo img{aspect-ratio:4/3}}
-.sol-img{aspect-ratio:16/9;object-position:50% 50%}@media(min-width:768px){.sol-img{aspect-ratio:16/8;object-position:70% 40%}}
-.method-band{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
-.method-band span{display:block;aspect-ratio:418/550;background:url(/brand/method.webp) no-repeat;background-size:400% 100%}
-.method-band span:nth-child(1){background-position:0 0}.method-band span:nth-child(2){background-position:33.333% 0}.method-band span:nth-child(3){background-position:66.667% 0}.method-band span:nth-child(4){background-position:100% 0}
-@media(max-width:767px){.method-band{grid-template-columns:repeat(2,1fr);gap:6px}.method-band span{aspect-ratio:1/1;background-size:400% 100%;background-position-y:50%}}
-.hero-art img{object-position:60% 50%}
