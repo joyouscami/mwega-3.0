@@ -125,6 +125,8 @@ export function StageList({ detailed }) {
   );
 }
 
+const SOL_IMG = { "business-systems": "bsys", "business-intelligence": "bi", "digital-systems": "dsys", "ai-automation": "ai" };
+
 export function HomePage() {
   const latest = articles.slice(0, 3);
   return (
@@ -160,10 +162,9 @@ export function HomePage() {
       <section className="sec bg-teal tone-teal" id="solution">
         <div className="wrap">
           <SectionHeading title={solutionIntro.title} lead={solutionIntro.lead} />
-          <Reveal className="digital-band"><img src="/brand/digital.webp" alt="" width="1600" height="900" loading="lazy" decoding="async" /></Reveal>
           <ul className="caps">
             {solutions.map((s, i) => (
-              <li key={s.slug}><Reveal delay={i * 80} className={cx("cap", s.slug === "business-intelligence" && "cap-bi", s.slug === "ai-automation" && "cap-ai")}>
+              <li key={s.slug}><Reveal delay={i * 80} className={cx("cap", `cap-${s.slug}`)}>
                 <h3 className="cap-name">{s.homeName}</h3>
                 <p className="body">{s.homeText}</p>
                 <Link href={"/what-we-solve#" + s.slug} className="tlink stretch">How this works</Link>
@@ -264,8 +265,7 @@ export function WhatWeSolvePage() {
           {solutions.map((s) => (
             <article key={s.slug} id={s.slug} className="sol">
               <h2 className="h2">{s.name}</h2>
-              {s.slug === "ai-automation" && <img className="sol-img" src="/brand/ai.webp" alt="" width="1400" height="788" loading="lazy" decoding="async" />}
-              {s.slug === "business-intelligence" && <img className="sol-img" src="/brand/data.webp" alt="" width="1400" height="788" loading="lazy" decoding="async" />}
+              {SOL_IMG[s.slug] && <img className="sol-img" src={`/brand/${SOL_IMG[s.slug]}.webp`} alt="" width="1400" height="788" loading="lazy" decoding="async" />}
               <div className="sol-grid">
                 <Rows items={[["The business problem", s.problem], ["What Mwega does", s.does], ["How the engagement works", s.how]]} />
                 <aside className="sol-side">

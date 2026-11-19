@@ -208,15 +208,14 @@ font-family:var(--font-sans),ui-sans-serif,system-ui,-apple-system,"Segoe UI",Ro
 .cta{background:linear-gradient(120deg,#101820 55%,#087F9D 130%);border-top:8px solid var(--orange)}
 
 .founder-photo{margin:48px 0 8px}.founder-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:60% 30%;display:block;box-shadow:12px 12px 0 var(--orange)}@media(min-width:768px){.founder-photo img{aspect-ratio:21/9;box-shadow:20px 20px 0 var(--orange)}}
-.digital-band{margin:40px 0 56px}.digital-band img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}@media(min-width:768px){.digital-band img{aspect-ratio:21/7}}
 
 .beyond-photo img{aspect-ratio:4/5;object-position:58% 40%}
-.bg-teal .cap-bi{background:linear-gradient(180deg,rgba(16,24,32,.35) 0%,#101820 78%),url(/brand/data.webp) 78% 15%/cover}
 .diag-photo{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:60% 30%;display:block;box-shadow:10px 10px 0 #101820}
 .method-band{margin:36px 0 40px}.method-band img{width:100%;height:auto;display:block}
 .sol-img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:70% 40%;display:block;margin:20px 0 8px}
 
-.bg-teal .cap-ai{background:linear-gradient(180deg,rgba(16,24,32,.3) 0%,#101820 80%),url(/brand/ai.webp) 50% 40%/cover}
+.bg-teal .cap-business-systems,.bg-teal .cap-business-intelligence,.bg-teal .cap-digital-systems,.bg-teal .cap-ai-automation{background:linear-gradient(180deg,rgba(16,24,32,.3) 0%,#101820 80%) ,var(--cap-img) 50% 40%/cover #101820}
+.bg-teal .cap-business-systems{--cap-img:url(/brand/bsys.webp)}.bg-teal .cap-business-intelligence{--cap-img:url(/brand/bi.webp)}.bg-teal .cap-digital-systems{--cap-img:url(/brand/dsys.webp)}.bg-teal .cap-ai-automation{--cap-img:url(/brand/ai.webp)}
 .ins-head{display:grid;gap:32px;align-items:center;margin-bottom:48px}@media(min-width:900px){.ins-head{grid-template-columns:1fr 1.1fr;gap:64px}}
 .ins-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:55% 30%;display:block;box-shadow:-14px 14px 0 var(--turq)}
 .footer{background:linear-gradient(180deg,rgba(16,24,32,.88) 0%,rgba(16,24,32,.8) 100%),url(/brand/footer.webp) center/cover #101820}
