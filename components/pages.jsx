@@ -179,7 +179,7 @@ export function HomePage() {
         <div className="wrap beyond-grid">
           <Reveal className="beyond-photo"><img src="/brand/operations.webp" alt="A founder talking a team through how the work flows, with a laptop and printed reports on the table" width="1600" height="900" loading="lazy" decoding="async" /></Reveal>
           <Reveal delay={100} className="stack">
-            <p className="eyebrow">THE MWEGA DIFFERENCE</p>
+            <p className="eyebrow">THE MWEGATECH DIFFERENCE</p>
             <h2 className="h2">We look beyond the tools.</h2>
             <p className="lead">We study how your business actually operates before we recommend any technology.</p>
             <ul className="beyond-list">{philosophy.map(([t, d]) => <li key={t}><b>{t}</b><span>{d}</span></li>)}</ul>
@@ -267,7 +267,7 @@ export function WhatWeSolvePage() {
               <h2 className="h2">{s.name}</h2>
               {SOL_IMG[s.slug] && <img className="sol-img" src={`/brand/${SOL_IMG[s.slug]}.webp`} alt="" width="1400" height="788" loading="lazy" decoding="async" />}
               <div className="sol-grid">
-                <Rows items={[["The business problem", s.problem], ["What Mwega does", s.does], ["How the engagement works", s.how]]} />
+                <Rows items={[["The business problem", s.problem], ["What MwegaTech does", s.does], ["How the engagement works", s.how]]} />
                 <aside className="sol-side">
                   <h3 className="row-name">Expected business outcome</h3>
                   <p className="body">{s.outcome}</p>
@@ -362,15 +362,15 @@ export function DiagnosticPage() {
 export function AboutPage() {
   return (
     <>
-      <PageHero kicker="About Mwega" title="A business systems consultancy for founders who have outgrown informal ways of running the business." />
+      <PageHero kicker="About MwegaTech" title="A business systems consultancy for founders who have outgrown informal ways of running the business." />
       <section id="story" className="sec bg-paper tone-light anchor">
         <div className="wrap split">
-          <Reveal className="stack"><h2 className="h2">Why Mwega exists</h2></Reveal>
+          <Reveal className="stack"><h2 className="h2">Why MwegaTech exists</h2></Reveal>
           <Reveal delay={100} className="stack">
-            {/* Draft story: confirm wording with the Mwega team. */}
+            {/* Draft story: confirm wording with the MwegaTech team. */}
             <p className="lead strong">Businesses grow faster than the systems that support them.</p>
             <p className="body">A business that started with a founder, a phone and a spreadsheet can reach a point where more customers, more transactions and more people create more friction instead of more output. Information is scattered, processes depend on individuals and too many decisions wait for the founder.</p>
-            <p className="body">Mwega exists to fix that underlying structure. We look at how the business operates, find what is holding it back and build the processes, information flows and technology that let it run better, make better decisions and grow with confidence.</p>
+            <p className="body">MwegaTech exists to fix that underlying structure. We look at how the business operates, find what is holding it back and build the processes, information flows and technology that let it run better, make better decisions and grow with confidence.</p>
           </Reveal>
         </div>
       </section>
@@ -378,12 +378,12 @@ export function AboutPage() {
         <div className="wrap split">
           <Reveal className="stack"><h2 className="h2">Where we come from</h2><LegacyLogo height={44} /></Reveal>
           <Reveal delay={100} className="stack">
-            <p className="body">Mwega is the evolution of Comrades Market, which helped businesses with digital marketing, research and business support. Our earlier work, from campaigns to reconciliation and reporting, kept pointing to the same gap between how a business operates and the systems behind it.</p>
+            <p className="body">MwegaTech is the evolution of Comrades Market, which helped businesses with digital marketing, research and business support. Our earlier work, from campaigns to reconciliation and reporting, kept pointing to the same gap between how a business operates and the systems behind it.</p>
             <p className="body strong">The name changed because the focus did.</p>
           </Reveal>
           <ol className="split-wide">
             {timeline.map(([title, text, years]) => (
-              <li key={title} className={cx("tl-item", title === "Mwega" && "is-key")}>
+              <li key={title} className={cx("tl-item", title === "MwegaTech" && "is-key")}>
                 <span className="tl-node" aria-hidden="true" /><p className="small muted">{years}</p><h3 className="tl-title">{title}</h3><p className="body">{text}</p>
               </li>
             ))}
@@ -502,7 +502,7 @@ export function LegalPage({ title }) {
   if (!page) return (
     <>
       <PageHero title={title} lead="The final text will be added before launch." />
-      <section className="sec bg-paper tone-light"><div className="wrap"><EmptyState title={title + " to be added"} text="Have a question in the meantime? Send us a note." action={["Contact Mwega", "/contact"]} /></div></section>
+      <section className="sec bg-paper tone-light"><div className="wrap"><EmptyState title={title + " to be added"} text="Have a question in the meantime? Send us a note." action={["Contact MwegaTech", "/contact"]} /></div></section>
     </>
   );
   return (
@@ -525,7 +525,7 @@ export function NotFoundPage() {
         <p className="nf-code" aria-hidden="true">404</p>
         <h1 className="h1">This page has moved or does not exist.</h1>
         <p className="lead" style={{ margin: "18px 0 30px" }}>Try the main sections, or tell us what you were looking for.</p>
-        <div className="btn-row"><Button href="/">Back to Mwega</Button><Button href="/contact" variant="ghost">{cta.discuss[0]}</Button></div>
+        <div className="btn-row"><Button href="/">Back to MwegaTech</Button><Button href="/contact" variant="ghost">{cta.discuss[0]}</Button></div>
       </div>
     </section>
   );

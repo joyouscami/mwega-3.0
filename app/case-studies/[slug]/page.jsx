@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const study = find(slug);
   if (!study) return {};
-  return pageMeta("/case-studies/" + slug, { title: study.title + " | Mwega", description: study.challenge.slice(0, 200) });
+  return pageMeta("/case-studies/" + slug, { title: study.title + " | MwegaTech", description: study.challenge.slice(0, 200) });
 }
 
 export default async function Page({ params }) {

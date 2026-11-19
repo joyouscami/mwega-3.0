@@ -59,7 +59,7 @@ export function Navbar() {
     <>
       <header className={cx("nav tone-dark", (solid || menuOpen) && "is-solid")}>
         <nav className="wrap nav-inner" aria-label="Primary">
-          <Link href="/" aria-label="Mwega, home"><Logo /></Link>
+          <Link href="/" aria-label="MwegaTech, home"><Logo /></Link>
           <ul className="nav-links">
             {navLinks.filter(([, href]) => href !== "/").map(([label, href, kids]) => kids ? (
               <li key={label} className={cx("nav-dd", ddOpen && "is-open")} onMouseEnter={() => setDdOpen(true)} onMouseLeave={() => setDdOpen(false)} onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setDdOpen(false); }}>
@@ -189,7 +189,7 @@ export function ResourcesPage() {
         <div className="wrap">
           <FilterBar label="Filter resources by category" options={[["all", "All"], ...resourceCats]} value={cat} onChange={setCat} />
           {cat === "all" && <div style={{ marginBottom: 20 }}><ToolkitFeature /></div>}
-          {list.length === 0 ? <EmptyState title={"No " + label + " yet"} text="Tell us what would be useful and we will let you know when it is ready." action={["Contact Mwega", "/contact"]} />
+          {list.length === 0 ? <EmptyState title={"No " + label + " yet"} text="Tell us what would be useful and we will let you know when it is ready." action={["Contact MwegaTech", "/contact"]} />
             : <div className="grid3">{list.map((r) => <ResourceCard key={r.id} resource={r} />)}</div>}
         </div>
       </section>
@@ -260,7 +260,7 @@ export function ContactForm() {
       const key = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
       let ok = false;
       if (key) {
-        const res = await fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ access_key: key, subject: "Website enquiry: " + v.challenge + " (" + v.name + ", " + v.organisation + ")", from_name: "Mwega website", name: v.name, business_name: v.organisation, email: v.email, phone: v.phone, business_size_or_stage: v.stage, primary_challenge: v.challenge, preferred_consultation_method: v.method, message: v.message }) });
+        const res = await fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ access_key: key, subject: "Website enquiry: " + v.challenge + " (" + v.name + ", " + v.organisation + ")", from_name: "MwegaTech website", name: v.name, business_name: v.organisation, email: v.email, phone: v.phone, business_size_or_stage: v.stage, primary_challenge: v.challenge, preferred_consultation_method: v.method, message: v.message }) });
         const data = await res.json().catch(() => ({}));
         ok = res.ok && data.success;
       } else {

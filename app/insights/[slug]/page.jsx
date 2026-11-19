@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const article = find(slug);
   if (!article) return {};
-  return pageMeta("/insights/" + slug, { title: article.title + " | Mwega", description: article.summary, type: "article" });
+  return pageMeta("/insights/" + slug, { title: article.title + " | MwegaTech", description: article.summary, type: "article" });
 }
 
 export default async function Page({ params }) {

@@ -10,7 +10,7 @@ const sans = Instrument_Sans({ subsets: ["latin"], variable: "--font-sans", disp
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: "Mwega | Business systems consultancy for established founders", template: "%s" },
+  title: { default: "MwegaTech | Business systems consultancy for established founders", template: "%s" },
   description: siteConfig.description,
   openGraph: { siteName: siteConfig.companyName, type: "website", locale: "en_KE", url: "/" },
   twitter: { card: "summary_large_image" },
@@ -21,7 +21,7 @@ export const viewport = { themeColor: "#0A1020" };
 const withoutScripts = ".mw .reveal{opacity:1!important;transform:none!important}";
 
 const jsonLd = {
-  "@context": "https://schema.org", "@type": "ProfessionalService", name: "Mwega", url: siteUrl, email: siteConfig.email, telephone: "+254718367110",
+  "@context": "https://schema.org", "@type": "ProfessionalService", name: "MwegaTech", url: siteUrl, email: siteConfig.email, telephone: "+254718367110",
   description: siteConfig.description, areaServed: "Kenya", address: { "@type": "PostalAddress", addressLocality: "Embu", addressCountry: "KE" },
   knowsAbout: ["Business systems consulting", "Business process improvement", "Business intelligence", "Digital transformation", "Business automation"],
 };

@@ -1,10 +1,10 @@
 /* All site copy and data. Pages read from this file, so text changes happen here.
-   Positioning: Mwega is a business systems consultancy for established founders. */
+   Positioning: MwegaTech is a business systems consultancy for established founders. */
 
 export const siteConfig = {
-  companyName: "Mwega",
+  companyName: "MwegaTech",
   tagline: "Better systems. Better business.",
-  description: "Mwega is a business systems consultancy for established founders. We connect your processes, data and technology so your business runs better, makes better decisions and grows with confidence.",
+  description: "MwegaTech is a business systems consultancy for established founders. We connect your processes, data and technology so your business runs better, makes better decisions and grows with confidence.",
   location: "Embu, Kenya",
   formerly: "Comrades Market", brochure: "/downloads/comrades-market-services-brochure.pdf",
   // Training video: paste a YouTube or Vimeo link, or a file path such as "/videos/training-video.mp4". Empty hides the section.
@@ -55,11 +55,11 @@ export const solutions = [
 ];
 export const getSolution = (slug) => solutions.find((s) => s.slug === slug);
 
-export const navLinks = [["Home", "/"], ["What We Solve", "/what-we-solve"], ["Our Approach", "/our-approach"], ["About Mwega", "/about"], ["Resources", "/resources", [["Insights", "/insights"], ["The Business Clinic", "/resources#training"], ["Case Studies", "/case-studies"], ["SME Data & AI Toolkit", "/resources#toolkit"]]], ["Contact", "/contact"]];
+export const navLinks = [["Home", "/"], ["What We Solve", "/what-we-solve"], ["Our Approach", "/our-approach"], ["About MwegaTech", "/about"], ["Resources", "/resources", [["Insights", "/insights"], ["The Business Clinic", "/resources#training"], ["Case Studies", "/case-studies"], ["SME Data & AI Toolkit", "/resources#toolkit"]]], ["Contact", "/contact"]];
 
 export const footerCols = [
   ["Work with us", [["What We Solve", "/what-we-solve"], ["Our Approach", "/our-approach"], ["Business Systems Diagnostic", "/diagnostic"], ["Contact", "/contact"]]],
-  ["Company", [["About Mwega", "/about"], ["Our Story", "/about#story"], ["Case Studies", "/case-studies"], ["Insights", "/insights"]]],
+  ["Company", [["About MwegaTech", "/about"], ["Our Story", "/about#story"], ["Case Studies", "/case-studies"], ["Insights", "/insights"]]],
   ["Learn", [["Resources", "/resources"], ["Training and workshops", "/resources#training"], ["Privacy Policy", "/privacy"], ["Terms of Service", "/terms"]]],
 ];
 export const socials = [["LinkedIn", "linkedin"], ["Instagram", "instagram"], ["Facebook", "facebook"], ["WhatsApp", "whatsapp"]];
@@ -83,7 +83,7 @@ export const problem = {
   conclusion: "You do not necessarily need more software. You need better systems.",
 };
 
-export const solutionIntro = { title: "We make your business work better.", lead: "Mwega examines how your business actually operates, then improves the systems underneath it: the processes people follow, the information they rely on and the technology that connects the two.", note: "These four capabilities work together as one consulting engagement. We bring in only the ones your business needs." };
+export const solutionIntro = { title: "We make your business work better.", lead: "MwegaTech examines how your business actually operates, then improves the systems underneath it: the processes people follow, the information they rely on and the technology that connects the two.", note: "These four capabilities work together as one consulting engagement. We bring in only the ones your business needs." };
 
 export const clientProfile = {
   title: "For founders building businesses that are ready for their next stage.",
@@ -109,7 +109,7 @@ export const stages = [
 /* Entry offer and client journey. No prices are published. */
 export const diagnostic = {
   name: "Business Systems Diagnostic",
-  lead: "A structured assessment of how your business currently operates, and the first step with Mwega.",
+  lead: "A structured assessment of how your business currently operates, and the first step with MwegaTech.",
   areas: ["Business processes", "Operational workflows", "Data and reporting", "Technology and software", "Manual tasks and automation opportunities", "Management visibility", "Operational bottlenecks"],
   deliverable: "A prioritised Business Systems Improvement Roadmap that identifies the most important opportunities, the recommended actions and the order in which to implement them.",
   steps: [["A first conversation", "We hear what is slowing the business down and agree whether a diagnostic is the right next step."], ["Access and interviews", "We speak to the people who run daily operations and look at the processes, tools and reports they use."], ["Analysis", "We find the bottlenecks, duplication and information gaps, and weigh each by its impact on the business."], ["Roadmap walkthrough", "We take you through the findings and the prioritised roadmap, and answer your questions."]],
@@ -175,7 +175,7 @@ export const caseStudies = [
       ["Thank you so much for involving me in this clinic, especially at a time I am dormant in my business and actively pivoting. I really learnt very specific and important skills for start-ups and would love to be more active if you do another clinic.", "Maureen Mwaura", "Participant, Business Clinic 1st Edition"],
     ],
     cta: ["Discuss Your Business Challenge", "/contact"] },
-  { slug: "reconciliation-under-ambiguity", status: "published", area: "Business Intelligence", client: "A financial institution", kind: "Reconciliation and controls", period: "", deliveredAs: "Mwega",
+  { slug: "reconciliation-under-ambiguity", status: "published", area: "Business Intelligence", client: "A financial institution", kind: "Reconciliation and controls", period: "", deliveredAs: "MwegaTech",
     title: "Reconciling payments and bank records when no transaction IDs match",
     challenge: "M-PESA payments, bank statements and refunds sat in separate systems with no shared transaction ID. Narrations were typed by hand, shortened or rewritten, and fees, delays and batching meant amounts and dates rarely lined up. Refunds carried the highest risk of fraud and over-payment.",
     approach: "We stopped trying to force exact matches. Each payment was treated as a claim that money should appear in the bank, and we weighed the evidence for it the way an experienced finance team would: how alike the narrations are, how close the amounts and dates sit, and whether the customer can be identified.",
@@ -187,7 +187,7 @@ export const caseStudies = [
 export const resourceCats = [["free-tools", "Free Tools"], ["premium-toolkits", "Premium Toolkits"], ["templates", "Templates"], ["reports", "Reports"], ["guides", "Guides"], ["ai-resources", "AI Resources"]];
 
 export const resources = [
-  { id: "toolkit", title: "SME Data & AI Toolkit", category: "premium-toolkits", access: "paid", price: "Ksh 3,500, one-time", // product facts and checkout link from the current site: confirm for Mwega
+  { id: "toolkit", title: "SME Data & AI Toolkit", category: "premium-toolkits", access: "paid", price: "Ksh 3,500, one-time", // product facts and checkout link from the current site: confirm for MwegaTech
     description: "One workbook that connects your finance, operations, sales, marketing and compliance, with a prompt library for the AI assistant you already use.",
     points: ["Five linked sheets and one dashboard", "Prompt library for your AI assistant", "Compliance deadline tracker", "Works in Excel or Google Sheets"],
     cta: ["Get the Toolkit", "https://selar.com/782579po40"], note: "Checkout opens on Selar in a new tab." },
@@ -340,7 +340,7 @@ export const values = [
   ["Collaboration", "We build with you, not for you from a distance."],
 ];
 
-export const statements = [ // draft wording: confirm with the Mwega team
+export const statements = [ // draft wording: confirm with the MwegaTech team
   ["Our purpose", "To help established founders build businesses that run well without depending on them for every decision."],
   ["Our vision", "Owner-led businesses across Kenya and the region that understand their numbers, trust their systems and grow with confidence."],
   ["Our mission", "To connect processes, data and technology into practical business systems that make operations more efficient, more measurable and ready for growth."],
@@ -351,7 +351,7 @@ export const timeline = [
   ["Digital services", "Social media, campaigns and websites for growing brands.", "2022 to 2024"],
   ["Research & business support", "Research, analytics and The Business Clinic for founders.", "2024 to 2025"],
   ["Data & AI", "Training and tools that help businesses run on their own numbers.", "2025"],
-  ["Mwega", "A focused business systems consultancy for established founders.", "2026"],
+  ["MwegaTech", "A focused business systems consultancy for established founders.", "2026"],
 ];
 
 export const aiTasks = [
@@ -373,29 +373,29 @@ export const consultMethods = ["Video call", "Phone call", "WhatsApp", "In perso
 export const nextSteps = ["We reply within 24 hours with next steps.", "A 30-minute conversation to understand the challenge and agree the right first step.", "A short written scope with deliverables, timeline and fee."]; // from the previous site's FAQ: confirm
 
 export const seo = { // becomes generateMetadata() per route
-  "/": "Mwega | Business systems consultancy for established founders",
-  "/what-we-solve": "What We Solve | Business systems, BI, integration and automation | Mwega",
-  "/our-approach": "Our Approach | Diagnose, Design, Implement, Optimise | Mwega",
-  "/diagnostic": "Business Systems Diagnostic | Mwega",
-  "/about": "About Mwega | Business systems consulting, formerly Comrades Market",
-  "/insights": "Insights on business systems, data and automation | Mwega",
-  "/resources": "Resources and training | Mwega",
-  "/case-studies": "Case studies | Mwega",
-  "/contact": "Book a Business Systems Consultation | Mwega",
+  "/": "MwegaTech | Business systems consultancy for established founders",
+  "/what-we-solve": "What We Solve | Business systems, BI, integration and automation | MwegaTech",
+  "/our-approach": "Our Approach | Diagnose, Design, Implement, Optimise | MwegaTech",
+  "/diagnostic": "Business Systems Diagnostic | MwegaTech",
+  "/about": "About MwegaTech | Business systems consulting, formerly Comrades Market",
+  "/insights": "Insights on business systems, data and automation | MwegaTech",
+  "/resources": "Resources and training | MwegaTech",
+  "/case-studies": "Case studies | MwegaTech",
+  "/contact": "Book a Business Systems Consultation | MwegaTech",
 };
 export const seoDescriptions = {
   "/what-we-solve": "Business process improvement, business intelligence, digital systems integration and AI workflow automation for established, owner-led businesses.",
   "/our-approach": "A four-stage consulting method for growing businesses: diagnose how the business runs, design a roadmap, implement the systems and optimise over time.",
   "/diagnostic": "A structured assessment of how your business operates, ending in a prioritised Business Systems Improvement Roadmap.",
-  "/about": "Mwega is a business systems consultancy in Embu, Kenya, evolved from Comrades Market, helping established founders connect processes, data and technology.",
+  "/about": "MwegaTech is a business systems consultancy in Embu, Kenya, evolved from Comrades Market, helping established founders connect processes, data and technology.",
   "/insights": "Practical articles on business systems for growing businesses, process improvement, business intelligence, automation and founder dependency.",
-  "/contact": "Discuss a business systems challenge with Mwega. Tell us about your business and where operations are holding it back.",
+  "/contact": "Discuss a business systems challenge with MwegaTech. Tell us about your business and where operations are holding it back.",
 };
 
 export const legalPages = { // legal text, keyed by page title. Same block format as article bodies: "h", "p", "ul"
   "Privacy Policy": { updated: "27 October 2026", body: [
     ["h", "1. Introduction"],
-    ["p", "Welcome to Mwega (“we,” “our,” or “us”)."],
+    ["p", "Welcome to MwegaTech (“we,” “our,” or “us”)."],
     ["p", "We respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, store, and protect your personal information when you visit https://mwega.com or contact us through our website."],
     ["p", "We handle personal information in accordance with applicable Kenyan data protection laws, including the Data Protection Act, 2019, where applicable."],
     ["h", "2. Information We Collect"],
@@ -456,13 +456,13 @@ export const legalPages = { // legal text, keyed by page title. Same block forma
   ] },
   "Terms of Service": { effective: "27 October 2026", updated: "27 October 2026", body: [
     ["h", "1. Introduction"],
-    ["p", "Welcome to Mwega (“Mwega,” “we,” “our,” or “us”)."],
-    ["p", "Mwega provides AI training, data consulting, business cohort training, educational resources, and related services designed to help individuals and businesses make better decisions, build stronger systems, and achieve sustainable growth."],
+    ["p", "Welcome to MwegaTech (“MwegaTech,” “we,” “our,” or “us”)."],
+    ["p", "MwegaTech provides AI training, data consulting, business cohort training, educational resources, and related services designed to help individuals and businesses make better decisions, build stronger systems, and achieve sustainable growth."],
     ["p", "These Terms of Service (“Terms”) govern your access to and use of https://mwega.com, including its content, enquiry forms, learning resources, and services made available through the website."],
     ["p", "By accessing or using the website, you agree to these Terms. If you do not agree, please discontinue use of the website."],
-    ["p", "References to Mwega mean the business or legal entity operating the website."],
+    ["p", "References to MwegaTech mean the business or legal entity operating the website."],
     ["h", "2. Our Services"],
-    ["p", "Mwega may provide the following services:"],
+    ["p", "MwegaTech may provide the following services:"],
     ["sh", "2.1 AI Training"],
     ["p", "AI training may include workshops, webinars, demonstrations, learning materials, practical exercises, and guidance on applying artificial intelligence tools to work and business processes."],
     ["p", "The availability, format, duration, and scope of each training programme will be communicated through the relevant programme description or registration materials."],
@@ -483,54 +483,54 @@ export const legalPages = { // legal text, keyed by page title. Same block forma
     ["p", "Our AI training and educational materials are intended to develop knowledge, skills, and practical understanding."],
     ["p", "Artificial intelligence tools and services may change over time. Examples, demonstrations, recommendations, and outputs may not always remain accurate, complete, or suitable for every situation."],
     ["p", "You are responsible for evaluating AI-generated outputs before relying on them, particularly where decisions involve financial, legal, medical, employment, security, or other material consequences."],
-    ["p", "Mwega does not guarantee that participation in a training session will produce a particular qualification, business result, productivity improvement, income level, or employment outcome unless an explicit written agreement states otherwise."],
+    ["p", "MwegaTech does not guarantee that participation in a training session will produce a particular qualification, business result, productivity improvement, income level, or employment outcome unless an explicit written agreement states otherwise."],
     ["p", "You remain responsible for complying with the terms, policies, and applicable laws governing any third-party AI tools you use."],
     ["h", "5. Data Consulting and Client Responsibilities"],
     ["p", "For data consulting engagements, clients are responsible for:"],
-    ["ul", ["Providing accurate and sufficiently complete information relevant to the agreed work.", "Ensuring they have the necessary rights, permissions, and lawful basis to share data with Mwega.", "Identifying relevant confidentiality, security, contractual, or regulatory restrictions before providing data.", "Reviewing deliverables and communicating any concerns within agreed timeframes.", "Making final business decisions based on their own circumstances and appropriate professional advice."]],
-    ["p", "Mwega will perform agreed services with reasonable care and in accordance with the applicable engagement terms."],
+    ["ul", ["Providing accurate and sufficiently complete information relevant to the agreed work.", "Ensuring they have the necessary rights, permissions, and lawful basis to share data with MwegaTech.", "Identifying relevant confidentiality, security, contractual, or regulatory restrictions before providing data.", "Reviewing deliverables and communicating any concerns within agreed timeframes.", "Making final business decisions based on their own circumstances and appropriate professional advice."]],
+    ["p", "MwegaTech will perform agreed services with reasonable care and in accordance with the applicable engagement terms."],
     ["p", "Unless expressly agreed in writing, consulting services do not constitute a guarantee of specific business performance, revenue growth, cost savings, or other commercial results."],
     ["p", "Where personal data is involved, the parties will comply with applicable data protection law and agree on any additional responsibilities necessary for the engagement."],
     ["h", "6. Business Cohorts and Community Participation"],
-    ["p", "Participants in Mwega’s business cohorts are expected to engage respectfully, participate responsibly, and comply with programme-specific instructions."],
+    ["p", "Participants in MwegaTech’s business cohorts are expected to engage respectfully, participate responsibly, and comply with programme-specific instructions."],
     ["p", "Unless expressly authorised, participants must not:"],
     ["ul", ["Share another participant’s confidential business information outside the programme.", "Record or distribute private sessions without permission.", "Harass, intimidate, mislead, or discriminate against other participants.", "Distribute unlawful, malicious, or unauthorised promotional material.", "Present another participant’s work or ideas as their own."]],
-    ["p", "Cohort participation does not automatically establish a partnership, agency relationship, employment relationship, investment arrangement, or joint venture between Mwega and a participant or between participants."],
-    ["p", "Mwega may take reasonable action in response to serious or repeated misconduct, subject to applicable agreements and law."],
+    ["p", "Cohort participation does not automatically establish a partnership, agency relationship, employment relationship, investment arrangement, or joint venture between MwegaTech and a participant or between participants."],
+    ["p", "MwegaTech may take reasonable action in response to serious or repeated misconduct, subject to applicable agreements and law."],
     ["h", "7. Registration, Fees and Payments"],
-    ["p", "Some Mwega services may be free, while others may require registration or payment."],
+    ["p", "Some MwegaTech services may be free, while others may require registration or payment."],
     ["p", "Where fees apply, the applicable programme description, quotation, invoice, or separate agreement will specify the relevant charges, payment deadlines, and payment arrangements."],
     ["p", "You are responsible for providing accurate registration and billing information and paying agreed fees when due."],
     ["p", "Any applicable taxes, additional charges, instalment arrangements, or payment-provider fees will be disclosed as appropriate."],
-    ["p", "Mwega will not treat an enquiry as a confirmed booking or paid engagement unless the relevant confirmation requirements have been satisfied."],
+    ["p", "MwegaTech will not treat an enquiry as a confirmed booking or paid engagement unless the relevant confirmation requirements have been satisfied."],
     ["h", "8. Cancellations, Rescheduling and Refunds"],
     ["p", "Cancellation, rescheduling, withdrawal, and refund arrangements will be communicated in the relevant programme terms, registration materials, or client agreement."],
-    ["p", "Where Mwega cancels or materially changes a paid programme, the available remedies will be determined by the applicable agreement and law."],
+    ["p", "Where MwegaTech cancels or materially changes a paid programme, the available remedies will be determined by the applicable agreement and law."],
     ["p", "Nothing in these Terms removes any mandatory refund, cancellation, or consumer protection rights available under Kenyan law."],
     ["p", "Before registering for a paid programme, participants should review its specific cancellation and refund conditions."],
     ["h", "9. Intellectual Property"],
-    ["p", "Unless otherwise stated, Mwega or its licensors own or have permission to use the intellectual property associated with the website and its original content."],
+    ["p", "Unless otherwise stated, MwegaTech or its licensors own or have permission to use the intellectual property associated with the website and its original content."],
     ["p", "This may include branding, logos, written materials, training presentations, course resources, templates, frameworks, videos, graphics, and other learning materials."],
     ["p", "You may use materials made available to you for your personal learning or internal business purposes to the extent permitted by the relevant programme or service agreement."],
-    ["p", "Unless authorised in writing or permitted by law, you must not reproduce, resell, redistribute, publicly publish, or commercially exploit Mwega’s proprietary materials."],
+    ["p", "Unless authorised in writing or permitted by law, you must not reproduce, resell, redistribute, publicly publish, or commercially exploit MwegaTech’s proprietary materials."],
     ["p", "Clients retain rights to their pre-existing materials and data. Ownership and permitted use of client-specific deliverables, custom dashboards, reports, code, and other commissioned work will be determined by the applicable written agreement."],
     ["p", "Participants retain rights to their own original contributions, subject to any applicable programme rules and the rights of other parties."],
     ["h", "10. Confidentiality and Business Information"],
-    ["p", "Mwega recognises that consulting engagements and business cohort programmes may involve confidential information."],
+    ["p", "MwegaTech recognises that consulting engagements and business cohort programmes may involve confidential information."],
     ["p", "Each party should take reasonable steps to protect confidential information received from the other party and use it only for the purpose for which it was shared."],
     ["p", "Confidential information should not be disclosed to unauthorised third parties unless the disclosing party has consented, disclosure is authorised under an applicable agreement, or disclosure is required by law."],
     ["p", "Information that is publicly available, independently developed, or lawfully obtained without a confidentiality obligation may not qualify as confidential information."],
     ["p", "Where a consulting engagement requires more detailed confidentiality obligations, the parties should enter into a separate confidentiality agreement or include suitable provisions in the engagement contract."],
     ["h", "11. Privacy and Data Protection"],
-    ["p", "Mwega may collect and process personal information when you visit the website, submit an enquiry, register for training, participate in a cohort, or engage us for consulting services."],
+    ["p", "MwegaTech may collect and process personal information when you visit the website, submit an enquiry, register for training, participate in a cohort, or engage us for consulting services."],
     ["p", "Our Privacy Policy explains how we handle personal information, the purposes for which it is used, and how you may exercise applicable privacy rights."],
     ["p", "Where client projects involve personal data, additional contractual safeguards or a data processing agreement may be necessary."],
-    ["p", "Mwega and its clients will comply with their respective obligations under applicable Kenyan data protection law."],
+    ["p", "MwegaTech and its clients will comply with their respective obligations under applicable Kenyan data protection law."],
     ["p", "**Privacy Policy:** [Read our Privacy Policy](/privacy)"],
     ["h", "12. Third-Party Tools and Services"],
-    ["p", "Mwega may use or recommend third-party tools, including AI platforms, analytics software, online meeting platforms, learning systems, and data visualisation tools."],
+    ["p", "MwegaTech may use or recommend third-party tools, including AI platforms, analytics software, online meeting platforms, learning systems, and data visualisation tools."],
     ["p", "These services may be governed by their own terms, privacy policies, licensing conditions, and security arrangements."],
-    ["p", "Unless expressly agreed otherwise, Mwega does not control third-party services and cannot guarantee their continuous availability, functionality, or future terms."],
+    ["p", "Unless expressly agreed otherwise, MwegaTech does not control third-party services and cannot guarantee their continuous availability, functionality, or future terms."],
     ["p", "You are responsible for reviewing relevant third-party requirements before using those services or uploading information to them."],
     ["h", "13. Website Availability and Disclaimers"],
     ["p", "We aim to provide useful, accurate, and accessible website content. However, we do not guarantee that the website will always be available, uninterrupted, error-free, or fully up to date."],
@@ -538,8 +538,8 @@ export const legalPages = { // legal text, keyed by page title. Same block forma
     ["p", "To the extent permitted by law, the website and its general informational content are provided on an available basis."],
     ["p", "Nothing in these Terms excludes mandatory statutory rights, consumer protections, or obligations that cannot lawfully be excluded."],
     ["h", "14. Limitation of Liability"],
-    ["p", "To the extent permitted by applicable law, Mwega will not be liable for indirect or consequential losses arising from the use of the website or general educational materials."],
-    ["p", "Mwega does not exclude or limit liability where doing so would be prohibited by law."],
+    ["p", "To the extent permitted by applicable law, MwegaTech will not be liable for indirect or consequential losses arising from the use of the website or general educational materials."],
+    ["p", "MwegaTech does not exclude or limit liability where doing so would be prohibited by law."],
     ["p", "Liability arising from a specific consulting engagement, paid training programme, or other contracted service may be addressed in the relevant written agreement, subject to applicable legal requirements."],
     ["h", "15. Suspension and Termination"],
     ["p", "We may restrict or suspend access to the website or a programme where reasonably necessary to address unlawful conduct, serious misconduct, security risks, or material breaches of applicable terms."],
@@ -553,9 +553,9 @@ export const legalPages = { // legal text, keyed by page title. Same block forma
     ["p", "These Terms are governed by the laws of Kenya, subject to applicable mandatory legal protections."],
     ["p", "Where a dispute arises, the parties should first attempt to resolve it through good-faith communication where appropriate."],
     ["p", "Unresolved disputes may be referred to the competent courts or other appropriate dispute-resolution mechanisms in Kenya, subject to applicable law."],
-    ["h", "18. Contact Mwega"],
+    ["h", "18. Contact MwegaTech"],
     ["p", "For questions about these Terms or our services, please contact:"],
-    ["p", "**Business name:** Mwega"],
+    ["p", "**Business name:** MwegaTech"],
     ["p", "**Website:** https://mwega.com"],
     ["p", "**Email:** [hello@mwega.com](mailto:hello@mwega.com)"],
     ["p", "**Legal entity:** PLUG CONNECT LIMITED"],

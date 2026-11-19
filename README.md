@@ -1,4 +1,4 @@
-# Mwega website
+# MwegaTech website
 
 Business systems consultancy site for established founders. Next.js App Router, plain CSS, deployed on Vercel.
 

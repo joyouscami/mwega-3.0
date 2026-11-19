@@ -33,7 +33,7 @@ export async function POST(request) {
   const sent = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { Authorization: "Bearer " + key, "Content-Type": "application/json" },
-    body: JSON.stringify({ from: process.env.CONTACT_FROM_EMAIL || "Mwega website <onboarding@resend.dev>", to: [to], reply_to: email, subject: "Website enquiry: " + challenge + " (" + name + ", " + business + ")", text }),
+    body: JSON.stringify({ from: process.env.CONTACT_FROM_EMAIL || "MwegaTech website <onboarding@resend.dev>", to: [to], reply_to: email, subject: "Website enquiry: " + challenge + " (" + name + ", " + business + ")", text }),
   });
   if (!sent.ok) {
     console.error("Contact form: Resend answered " + sent.status + ". " + (await sent.text()));

@@ -28,7 +28,7 @@ export function SectionHeading({ title, lead, kicker }) {
   );
 }
 
-/* MWEGA wordmark. The mark is an M whose centre point is a connection node. It works on dark and light backgrounds because it follows currentColor. */
+/* MWEGATECH wordmark. The mark is an M whose centre point is a connection node. It works on dark and light backgrounds because it follows currentColor. */
 export function LogoMark({ size = 30 }) {
   return (
     <svg className="logo-mark" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
@@ -41,7 +41,7 @@ export function Logo({ variant = "full", size = 30 }) {
   return (
     <span className={cx("logo", variant === "mark" && "logo-only")}>
       <LogoMark size={size} />
-      {variant !== "mark" && <span className="logo-word">MWEGA</span>}
+      {variant !== "mark" && <span className="logo-word">MWEGATECH</span>}
     </span>
   );
 }
@@ -71,7 +71,7 @@ export function Footer() {
       <div className="wrap">
         <div className="footer-top">
           <div>
-            <Link href="/" aria-label="Mwega, home"><Logo /></Link>
+            <Link href="/" aria-label="MwegaTech, home"><Logo /></Link>
             <p className="footer-tag">{siteConfig.tagline}</p>
             <p className="small measure">{siteConfig.description}</p>
             <p className="small footer-loc">{siteConfig.location}</p>
@@ -93,7 +93,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2026 Mwega, formerly {siteConfig.formerly}. All rights reserved.</p>
+          <p>© 2026 MwegaTech, formerly {siteConfig.formerly}. All rights reserved.</p>
           <ul><li><Link href="/privacy">Privacy Policy</Link></li><li><Link href="/terms">Terms of Service</Link></li></ul>
         </div>
       </div>
