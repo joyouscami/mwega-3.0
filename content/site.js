@@ -175,7 +175,7 @@ export const caseStudies = [
       ["Thank you so much for involving me in this clinic, especially at a time I am dormant in my business and actively pivoting. I really learnt very specific and important skills for start-ups and would love to be more active if you do another clinic.", "Maureen Mwaura", "Participant, Business Clinic 1st Edition"],
     ],
     cta: ["Discuss Your Business Challenge", "/contact"] },
-  { slug: "reconciliation-under-ambiguity", status: "published", area: "Business Intelligence", client: "A financial institution", kind: "Reconciliation and controls", period: "", deliveredAs: "MwegaTech",
+  { slug: "reconciliation-under-ambiguity", status: "published", area: "Business Intelligence", client: "A financial institution", kind: "Reconciliation and controls", period: "April 2026", deliveredAs: "MwegaTech",
     title: "Reconciling payments and bank records when no transaction IDs match",
     challenge: "M-PESA payments, bank statements and refunds sat in separate systems with no shared transaction ID. Narrations were typed by hand, shortened or rewritten, and fees, delays and batching meant amounts and dates rarely lined up. Refunds carried the highest risk of fraud and over-payment.",
     approach: "We stopped trying to force exact matches. Each payment was treated as a claim that money should appear in the bank, and we weighed the evidence for it the way an experienced finance team would: how alike the narrations are, how close the amounts and dates sit, and whether the customer can be identified.",
